@@ -1,5 +1,5 @@
 // Filepath to belly button data json file
-filepath = "../data/samples.json";
+filepath = "../samples.json";
 
 // Console log check to see promise and json data
 const bioData = d3.json(filepath);
