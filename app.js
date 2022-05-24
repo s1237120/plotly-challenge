@@ -1,5 +1,5 @@
 // Filepath to belly button data json file
-filepath = "samples.json";
+filepath = "data/samples.json";
 
 // Console log check to see promise and json data
 const bioData = d3.json(filepath);
@@ -136,7 +136,9 @@ function charts(value) {
       },
       xaxis: {
         title: "OTU Ids"
-      }
+      },
+      width: 1200,
+      height: 700
     };
 
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
